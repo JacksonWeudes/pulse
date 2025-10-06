@@ -1,0 +1,2 @@
+# pulse
+Pulse é um app de saúde e bem-estar que combina tecnologia inteligente e design minimalista para cuidar de você todos os dias. Acompanhe batimentos, sono, hábitos e progresso em uma interface suave, elegante e intuitiva, feita para tornar a experiência de cuidar da sua saúde simples e agradável. Avaliações em tempo real, metas diárias e insights personalizados ajudam você a viver melhor, com equilíbrio e confiança.
