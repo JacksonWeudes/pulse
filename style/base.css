@@ -1,7 +1,14 @@
 @charset "UTF-8";
 
 :root{
-    --main-color: #eeeae3;
+    --bg: #eeeae3;
+    --bg-light: #f7f5f0;
+    --bg-dark: #d6d1c8;
+    --black-base: #000500;
+    --black-light: #0d1510;
+    --blck-dark: #000300;
+
+    --transition-time: .5s;
 }
 
 *{
@@ -13,15 +20,30 @@
 
 body{
     min-height: 100dvh;
-    background-color: var(--main-color);
+    color: var(--black-base);
+    background-color: var(--bg);
+}
+
+h2{
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 button{
     cursor: pointer;
     border: none;
     outline: none;
-    background-color: var(--main-color);
+    border-radius: 40px;
+    background-color: var(--bg-light);
+    box-shadow: 3px  3px 4px #9f9f9f,
+                -3px -3px 4px #fff;
+    transition: all var(--transition-time) ease-in-out;
 }
+button:hover{
+    box-shadow: inset  3px  3px 4px #9f9f9f,
+                inset -3px -3px 4px #fff;
+}   
 
 a{
     outline: none;
